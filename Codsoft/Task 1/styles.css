@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.header{
+    background-color: #d11010;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(30, 117, 198);
+    padding: 3px,10px;
+    text-align: left;
+}
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 2px, 0;
+}
+
+nav ul {
+    list-style:none;
+    display: flex;
+    justify-content: right;
+    margin: 1px;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:dashed;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+  }
+  
+  #search-btn {
+    background-color: #0ab510;
+    color: #010c12;
+    border: none;
+    padding: 5px 2px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  #search-btn:hover {
+    background-color: #ec0f6b;
+  }
+
+/* About Section Styles */
+#about {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Image Slider Styles */
+.slider {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 10px;
+}
+
+.see-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more:hover {
+    background-color: #555;
+}
+
+/* Contact Section Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

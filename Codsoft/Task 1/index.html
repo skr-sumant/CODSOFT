@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="header">
+        <a>Landing Page</a>
+    </div>
+
+    <nav>
+        <ul>
+            <!-- <li><a href="">Landing Page</a></li> -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#slider">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <form><input type="search" id="search-input" placeholder="Search...."><button
+                        id="search-btn">Search</button></form>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to our website! We're a team of passionate individuals who are dedicated to providing innovative
+            solutions to make your life easier. Our mission is to empower individuals and businesses to reach their full
+            potential by leveraging cutting-edge technology and expertise.</p>
+        <p>Our story began with a simple idea: to make a positive impact on the world. We believe that everyone deserves
+            access to quality resources and opportunities, and we're committed to making that a reality. With a strong
+            focus on collaboration, creativity, and continuous learning, we're driven to deliver exceptional results
+            that exceed expectations.</p>
+        <p>Today, we're proud to be a leading provider of [specific services or products], serving a diverse range of
+            clients across [industries or regions]. Our team of experts is dedicated to delivering personalized support,
+            tailored solutions, and unparalleled customer service. Whether you're an individual or a business, we're
+            here to help you achieve your goals and succeed in an ever-changing world.</p>
+        <p>Get in touch with us to learn more about our services, or to explore how we can help you achieve your vision.
+            We look forward to collaborating with you!</p>
+    </section>
+
+    <!-- Image Slider -->
+    <section id="slider">
+        <h1>Gallery</h1>
+        <div class="slider">
+            <img src="images/img1.jpg" alt="Image 1">
+            <img src="images/img2.avif" alt="Image 2">
+            <img src="images/img3.avif" alt="Image 3">
+        </div>
+        <button class="see-more">See More</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
